@@ -8,7 +8,7 @@ def prime?(num)
     else
             while i <= num/2
 
-               if num % i == 0 or num < 0
+               if num % i == 0 || num < 0
                  return false
                end
                i += 1
