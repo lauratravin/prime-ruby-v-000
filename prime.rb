@@ -4,7 +4,7 @@ def prime?(num)
     i = 2
     if num == 3
       return true
-    else
+    elsif
             while i < num
                if num % i == 0
                  return false
@@ -12,5 +12,7 @@ def prime?(num)
                i += 1
             end
            return true
-     end
+     else
+           return false
+    end
 end
