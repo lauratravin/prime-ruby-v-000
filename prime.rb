@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(num)
 
-    i = 2.
+    i = 2
     if num == 3
       return true
     else
