@@ -3,12 +3,11 @@ def prime?(num)
 
     i = 2
 
-    case num
-    when  == 0
+   if num < 0
        return false
-    when num == 2
+   elsif  num == 2
       return true
-    else
+   else
       while i <= num/2
 
          if num % i == 0
@@ -16,7 +15,7 @@ def prime?(num)
          end
          i += 1
       end
-     return true
+      return true
     end
 
     # end
