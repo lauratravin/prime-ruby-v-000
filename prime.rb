@@ -6,6 +6,7 @@ def prime?(num)
       return true
     elsif
             while i <= num/2
+               puts i num/2
                if num % i == 0
                  return false
                end
