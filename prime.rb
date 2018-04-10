@@ -3,7 +3,7 @@ def prime?(num)
 
     i = 2
 
-   if num <= 0 
+   if num <= 0 or num == 1
        return false
    elsif  num == 2
       return true
