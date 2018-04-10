@@ -4,7 +4,7 @@ def prime?(num)
     i = 2
     if num == 2
       return true
-    elsif
+    else
             while i <= num/2
                puts i num/2
                if num % i == 0
@@ -13,7 +13,5 @@ def prime?(num)
                i += 1
             end
            return true
-     else
-           return false
-    end
+     end
 end
