@@ -2,16 +2,13 @@
 def prime?(num)
 
     i = 2
-    if num < 0
-      num = num * -1
-    end
 
     if num == 2
       return true
     else
             while i <= num/2
 
-               if num % i == 0
+               if num % i == 0 or num < 0
                  return false
                end
                i += 1
