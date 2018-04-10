@@ -4,7 +4,7 @@ def prime?(num)
     i = 2
 
     case num
-    when num < 0
+    when  < 0
        return false
     when num == 2
       return true
